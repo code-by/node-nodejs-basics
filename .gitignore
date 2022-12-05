@@ -1,0 +1,7 @@
+# VSC and plugins
+# localhistory
+.lh/ 
+
+# Logs
+logs
+*.log
