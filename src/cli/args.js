@@ -11,7 +11,7 @@ const parseArgs = () => {
     let argString = '';
 
     for (let i = 2; i < argv.length; i += 1) {
-        argString += `${argString ? ', ' : '' }${argv[i]} is ${argv[++i]}`
+        argString += `${argString ? ', ' : '' }${argv[i].substring(2, argv[i].length)} is ${argv[++i]}`
     }
 
     console.log(argString);
